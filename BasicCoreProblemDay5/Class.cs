@@ -9,15 +9,17 @@ namespace BasicCoreProblemDay5
 {
     class Class
     {
-        public void WapTwoNumber(int iValue1,int iValue2)
+        public void EvenOdd(int iValue1)
         {
-            Console.WriteLine("Before Swaping Number is:"+iValue1 +" "+iValue2);
-            iValue1 = iValue1 - iValue2;
-            iValue2 = iValue1 + iValue2;
-            iValue1 = iValue1 - iValue2;
-            Console.WriteLine("After Swaping Number is:" + iValue1 +" "+iValue2);
-
-
+            if (iValue1 % 2 == 0)
+            {
+                Console.WriteLine("Number is Even");
+            }
+            else
+            {
+                Console.WriteLine("Number is Odd");
+            }
+            
 
         }
     }
