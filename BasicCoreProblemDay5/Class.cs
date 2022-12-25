@@ -8,15 +8,18 @@ namespace BasicCoreProblemDay5
 {
     class Class
     {
-        public void HarmonicNo(int iCnt)
+        public void PrimeFactor(int iCnt)
         {
-          
-            double dValue = 0.0;
-            Console.WriteLine("Harmonic series is: ");
-            for (double i = 1; i <= iCnt; i++)
+            int IFactor = 0;
+            for (int i = 2; i<=iCnt; i++)
             {
-                dValue = dValue + 1 / i;
-                Console.WriteLine(dValue);
+                    while (iCnt % i == 0)
+                {
+                    Console.WriteLine(i);
+                    iCnt = iCnt / i;
+                }
+                        
+                    
             }
         }
     }

@@ -12,10 +12,10 @@ namespace BasicCoreProblemDay5
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Enter Number for Harmonic series ");
+            Console.WriteLine("Enter Number for Factorization ");
             int iCnt = Convert.ToInt32(Console.ReadLine());
             Class obj = new Class();   // create object
-            obj.HarmonicNo(iCnt);        //
+            obj.PrimeFactor(iCnt);        //
             Console.ReadLine();
             
         }
