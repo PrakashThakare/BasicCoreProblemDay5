@@ -8,16 +8,23 @@ namespace BasicCoreProblemDay5
 {
     class Class
     {
-        public void LeapYear(int iCnt)
+        public void PowerOFTwo(int iCnt)
         {
-            if (((iCnt % 4 == 0) && (iCnt % 100 != 0)) || (iCnt % 400 == 0))
+            int iNumber = 1;
+            if ((0 <= iCnt) && (iCnt < 31))
             {
-                Console.WriteLine("It is a leap Year ");
+                for (int i = 1; i <= iCnt; i++)
+                {
+                    iNumber *= 2;
+                    Console.WriteLine(iNumber);
+                }
             }
-            else
+            else 
             {
-                Console.WriteLine("It is a Not leap Year ");
+                Console.WriteLine("Invalid Input");
             }
+
+
         }
     }
 }

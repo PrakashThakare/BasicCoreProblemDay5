@@ -12,10 +12,10 @@ namespace BasicCoreProblemDay5
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Enter yaer ");
+            Console.WriteLine("Enter Number");
             int iCnt = Convert.ToInt32(Console.ReadLine());
             Class obj = new Class();   // create object
-            obj.LeapYear(iCnt);        //
+            obj.PowerOFTwo(iCnt);        //
             Console.ReadLine();
             
         }
