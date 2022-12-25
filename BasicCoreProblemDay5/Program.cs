@@ -12,10 +12,10 @@ namespace BasicCoreProblemDay5
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Enter Number");
+            Console.WriteLine("Enter Number for Harmonic series ");
             int iCnt = Convert.ToInt32(Console.ReadLine());
             Class obj = new Class();   // create object
-            obj.PowerOFTwo(iCnt);        //
+            obj.HarmonicNo(iCnt);        //
             Console.ReadLine();
             
         }

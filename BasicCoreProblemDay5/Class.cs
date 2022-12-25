@@ -8,23 +8,16 @@ namespace BasicCoreProblemDay5
 {
     class Class
     {
-        public void PowerOFTwo(int iCnt)
+        public void HarmonicNo(int iCnt)
         {
-            int iNumber = 1;
-            if ((0 <= iCnt) && (iCnt < 31))
+          
+            double dValue = 0.0;
+            Console.WriteLine("Harmonic series is: ");
+            for (double i = 1; i <= iCnt; i++)
             {
-                for (int i = 1; i <= iCnt; i++)
-                {
-                    iNumber *= 2;
-                    Console.WriteLine(iNumber);
-                }
+                dValue = dValue + 1 / i;
+                Console.WriteLine(dValue);
             }
-            else 
-            {
-                Console.WriteLine("Invalid Input");
-            }
-
-
         }
     }
 }
