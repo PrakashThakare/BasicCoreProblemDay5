@@ -12,10 +12,12 @@ namespace BasicCoreProblemDay5
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Enter Number for Factorization ");
-            int iCnt = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Enter Divident Number ");
+            int iValue1 = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Enter  Diviser Number ");
+            int iValue2 = Convert.ToInt32(Console.ReadLine());
             Class obj = new Class();   // create object
-            obj.PrimeFactor(iCnt);        //
+            obj.QuotientRemainder(iValue1,iValue2);        //
             Console.ReadLine();
             
         }

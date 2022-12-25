@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -8,19 +9,12 @@ namespace BasicCoreProblemDay5
 {
     class Class
     {
-        public void PrimeFactor(int iCnt)
+        public void QuotientRemainder(int iDevident,int iDivisor)
         {
-            int IFactor = 0;
-            for (int i = 2; i<=iCnt; i++)
-            {
-                    while (iCnt % i == 0)
-                {
-                    Console.WriteLine(i);
-                    iCnt = iCnt / i;
-                }
-                        
-                    
-            }
+            int iQuotient = iDevident / iDivisor;
+            Console.WriteLine("Quotient is: "+iQuotient);
+            int iRemainder = iDevident % iDivisor;
+            Console.WriteLine("Remainder is: " + iRemainder);
         }
     }
 }
