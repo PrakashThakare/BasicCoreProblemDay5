@@ -12,12 +12,12 @@ namespace BasicCoreProblemDay5
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Enter Divident Number ");
+            Console.WriteLine("Enter First Number ");
             int iValue1 = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine("Enter  Diviser Number ");
+            Console.WriteLine("Enter  Second Number ");
             int iValue2 = Convert.ToInt32(Console.ReadLine());
             Class obj = new Class();   // create object
-            obj.QuotientRemainder(iValue1,iValue2);        //
+            obj.WapTwoNumber(iValue1,iValue2);        //
             Console.ReadLine();
             
         }

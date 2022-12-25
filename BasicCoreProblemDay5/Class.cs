@@ -9,12 +9,16 @@ namespace BasicCoreProblemDay5
 {
     class Class
     {
-        public void QuotientRemainder(int iDevident,int iDivisor)
+        public void WapTwoNumber(int iValue1,int iValue2)
         {
-            int iQuotient = iDevident / iDivisor;
-            Console.WriteLine("Quotient is: "+iQuotient);
-            int iRemainder = iDevident % iDivisor;
-            Console.WriteLine("Remainder is: " + iRemainder);
+            Console.WriteLine("Before Swaping Number is:"+iValue1 +" "+iValue2);
+            iValue1 = iValue1 - iValue2;
+            iValue2 = iValue1 + iValue2;
+            iValue1 = iValue1 - iValue2;
+            Console.WriteLine("After Swaping Number is:" + iValue1 +" "+iValue2);
+
+
+
         }
     }
 }
