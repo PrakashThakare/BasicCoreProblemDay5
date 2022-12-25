@@ -12,10 +12,10 @@ namespace BasicCoreProblemDay5
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Enter Number for Finding Even or Odd");
-            int iValue1 = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Enter Alphabet");
+            char cValue1 = Convert.ToChar(Console.ReadLine());
             Class obj = new Class();   // create object
-            obj.EvenOdd(iValue1);        //
+            obj.Alphabet(cValue1);        //
             Console.ReadLine();
             
         }

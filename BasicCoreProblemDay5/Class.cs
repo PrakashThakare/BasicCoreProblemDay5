@@ -9,15 +9,15 @@ namespace BasicCoreProblemDay5
 {
     class Class
     {
-        public void EvenOdd(int iValue1)
+        public void Alphabet(int iValue1)
         {
-            if (iValue1 % 2 == 0)
+            if ((iValue1== 'a')||(iValue1=='e')||(iValue1 == 'i') || (iValue1 == 'o') || (iValue1 == 'u')|| (iValue1 == 'A') || (iValue1 == 'E') || (iValue1 == 'I') || (iValue1 == 'O') || (iValue1 == 'U') )
             {
-                Console.WriteLine("Number is Even");
+                Console.WriteLine("It is Vowel");
             }
             else
             {
-                Console.WriteLine("Number is Odd");
+                Console.WriteLine("Number is Consonant");
             }
             
 
