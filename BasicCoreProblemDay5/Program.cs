@@ -12,10 +12,16 @@ namespace BasicCoreProblemDay5
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Enter Alphabet");
-            char cValue1 = Convert.ToChar(Console.ReadLine());
+            int[] a = new int[3];
+
+            Console.WriteLine("Enter First Number ");
+            int iValue1= Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Enter Second Number ");
+            int iValue2 = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Enter Three Number ");
+            int iValue3 = Convert.ToInt32(Console.ReadLine());
             Class obj = new Class();   // create object
-            obj.Alphabet(cValue1);        //
+            obj.LargeNumber(iValue1,iValue2,iValue3);        //
             Console.ReadLine();
             
         }
